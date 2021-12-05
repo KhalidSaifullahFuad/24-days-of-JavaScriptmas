@@ -1,0 +1,2 @@
+- Generate a random number
+- Use it to select items from the greetings array
