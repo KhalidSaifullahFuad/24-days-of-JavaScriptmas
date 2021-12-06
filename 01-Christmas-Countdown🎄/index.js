@@ -6,10 +6,10 @@ function renderCountdown(){
     // - Get today's date (you only need the day).
     // - Calculate remaining days.
     // - Display remaining days in countdownDisplay.
-    var today = new Date().getDay();
-    var remainningDays = christmas - today;
+    const today = new Date().getDay();
+    const remainingDays = christmas - today;
     
-    countdownDisplay.innerText = remainningDays;
+    countdownDisplay.innerText = remainingDays;
 }
 
 renderCountdown()
