@@ -1,7 +1,7 @@
 const input = document.getElementById("input")
 const btn = document.getElementById("btn")
 let guestList = document.getElementById("guest-list")
-let guests = ["Partner", "Nice Relative 1", "Nice Relative 2", "Evil Relative", "Lonely Neighbour"]
+let guests = ["Partner", "Nice Relative 1", "Nice Relative 2", "Evil Relative", "Lonely Neighbor"]
 
 // Tasks:
 // - Write the JS to render the Christmas day guest list in the guest-list element.
